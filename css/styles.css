@@ -16,6 +16,11 @@ a{
 li{
     list-style-type: none;
 }
+
+button{
+    font-family: inherit;
+}
+
 /*Хедер*/
 
 .logo-blue
@@ -24,7 +29,6 @@ font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-font-style: normal;
 color: var(--accent-txt);
 }
 .logo-dark
@@ -61,6 +65,7 @@ color: var(--logo-light-txt);
     font-size: 14px;
     line-height: 1.14;
     color: var(--secondary-light-txt);
+    letter-spacing: 0.02em; 
 
 }
 
@@ -103,8 +108,8 @@ background-color: var(--accent-txt);
 
 .speciality-list-character{
 font-weight: 700;
-font-size: 1.14;
-line-height: 16px;
+font-size: 14px;
+line-height: 1.14;
 text-transform: uppercase;
 color:var(--primary-light-txt);
 }
@@ -147,6 +152,7 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 color:var(--primary-light-txt);
+font-family: inherit;
 }
 
 
@@ -163,18 +169,18 @@ color:var(--primary-light-txt);
     color:var(--logo-dark-txt);
 }
 .footer-adress{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 color:var(--primary-dark-txt);
+font-style: normal;
 }
 
 .footer-mail,
 .footer-phone{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 color:var(--secondary-footer-txt);
+font-style: normal;
 }
 
 .portfolio-item-title{
@@ -186,7 +192,6 @@ color:var(--primary-light-txt)
 }
 
 .portfolio-item-phrase{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 }
